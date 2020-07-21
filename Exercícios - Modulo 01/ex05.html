@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 05</title>
+</head>
+<body>
+    <script>
+        function exibeHabilidades(usuarios) {
+            for (usuario of usuarios){
+                console.log(
+                    usuario.nome +
+                    " possui as seguintes habilidades: " +
+                    usuario.habilidades.join(" | ")
+                )
+            }
+        }
+
+        var usuarios = [{
+            nome: 'Hudson',
+            habilidades: ["Javascript", "html", "C"]
+        },
+        {
+            nome: 'Maria',
+            habilidades: ["Javascript", "html", "css"]
+        }
+        ];
+        
+        console.log(exibeHabilidades(usuarios));
+    </script>
+</body>
+</html>
