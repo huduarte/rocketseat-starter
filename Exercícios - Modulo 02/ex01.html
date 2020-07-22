@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícico 01</title>
+</head>
+<body>
+    <div id="app">
+        <button id="new">Adicionar Quadrado</button>
+        <div id="squares"></div>
+
+
+    </div>
+
+    <script>
+        var btnElement = document.getElementById('new');
+        var squaresElement = document.getElementById('squares');
+        
+        btnElement.onclick = function(){
+
+            var square = document.createElement('div');
+            
+            square.style.marginTop = '5px';
+            square.style.width = '100px';
+            square.style.height = '100px';
+            square.style.backgroundColor = '#000000';
+            
+            squaresElement.appendChild(square)
+
+            
+        }    
+    </script>
+</body>
+</html>

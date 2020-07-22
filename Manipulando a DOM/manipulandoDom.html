@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando DOM</title>
+</head>
+<body>
+    <div id="app">
+        <!-- <p>Digite seu nome</p> -->
+        <input type="text" name="nome"/>
+        <button class="botao">Adicionar</button>
+
+    </div>
+
+    <script>
+        var inputElement = document.querySelector('input[name=nome]')
+        var btnElement = document.querySelector('button.botao');
+        
+        btnElement.onclick = function(){
+            var text = inputElement.value;
+            //Adicionando texto em tela
+            var elementCreate = document.createElement('p');
+            
+            var textElement = document.createTextNode(text)
+            
+            var containerElement = document.querySelector('#app')
+            containerElement.appendChild(textElement)
+
+            var colorElement = document.querySelector('#app')
+            colorElement.style.color = '#f00'
+        }    
+    </script>
+</body>
+</html>
