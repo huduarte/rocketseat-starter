@@ -19,16 +19,18 @@
         
         btnElement.onclick = function(){
             var text = inputElement.value;
+            // console.log(text)
             //Adicionando texto em tela
-            var elementCreate = document.createElement('p');
-            
+            var elementCreate = document.createElement('p'); 
             var textElement = document.createTextNode(text)
-            
+            //Mostrando onde o texto vai ficar
             var containerElement = document.querySelector('#app')
             containerElement.appendChild(textElement)
-
+            inputElement.value=""
+            //Mexendo na cor do texto criado
             var colorElement = document.querySelector('#app')
             colorElement.style.color = '#f00'
+            
         }    
     </script>
 </body>
