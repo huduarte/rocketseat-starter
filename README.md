@@ -8,7 +8,7 @@ Aprender sobre conceitos básicos da stack REACTJS | REACT NATIVE | NODEJS.
 
 ### Features
 
-- [ ] Curso Javascript
+- [x] Curso Javascript
 - [ ] Curso Javascript ES6
 - [ ] NodeJS
 - [ ] ReactJS
