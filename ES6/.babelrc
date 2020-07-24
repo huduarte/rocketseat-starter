@@ -1,0 +1,4 @@
+{
+    // Entender o ambiente que estamos trabalhando e converter para navegadores que não entendem
+    "presets": ["@babel/preset-env"]
+}
