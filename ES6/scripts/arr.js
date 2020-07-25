@@ -1,6 +1,5 @@
 const arr = [1,3,4,5,8,9];
 
-
 //Percorrer o vetor e retornar uma informação
 const newArr  = arr.map(function(item, index){
     return item + index
