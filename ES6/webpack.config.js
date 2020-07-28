@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './src/DesafiosWebpack/main.js',
+    entry: ['@babel/polyfill','./src/DesafiosAsync/main.js',],
     output: {
         path: __dirname + '/public',
         filename: 'bundle.js'
