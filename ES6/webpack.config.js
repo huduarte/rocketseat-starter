@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './src/main.js',
+    entry: './src/DesafiosWebpack/main.js',
     output: {
         path: __dirname + '/public',
         filename: 'bundle.js'
