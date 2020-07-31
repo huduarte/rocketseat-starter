@@ -4,7 +4,7 @@
 <h4 align="center">Em andamento...<h4>
 
 ## Objetivo:
-Aprender sobre conceitos básicos da stack REACTJS | REACT NATIVE | NODEJS.
+Aprender sobre conceitos básicos da stack JS | NODEJS | REACTJS | REACT NATIVE.
 
 ### Features
 
