@@ -1,7 +1,7 @@
 <h1 align="center">STARTER</h1>
 <p align="center">Acompanhando minha evolução na stack react</p>
 
-<h4 align="center">Em andamento...<h4>
+<h4 align="center">Em andamento [Pausei o desenvolvimento do curso para focar em melhoras as skills em JS]<h4>
 
 ## Objetivo:
 Aprender sobre conceitos básicos da stack JS | NODEJS | REACTJS | REACT NATIVE.
