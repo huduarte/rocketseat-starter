@@ -15,7 +15,7 @@ Learn about basic concepts of stack JS | NODEJS | REACTJS | REACT NATIVE.
 - [ ] React Native
 
 
-## Tecnologias: 
+## Technologies: 
 - [Javascript](https://www.javascript.com/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
