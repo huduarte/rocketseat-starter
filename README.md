@@ -1,7 +1,7 @@
 <h1 align="center">STARTER</h1>
 <p align="center">Follow my evolution in the react stack</p>
 
-<h4 align="center">In progress [Paused the course development to focus on improving JS skills]<h4>
+<h4 align="center">In progress [Paused the course development to focus in GoStack Bootcamp]<h4>
 
 ## Objective:
 Learn about basic concepts of stack JS | NODEJS | REACTJS | REACT NATIVE.
